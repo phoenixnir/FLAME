@@ -108,3 +108,23 @@ python FLAME/test.py \
 ```
 
 `--source` and `--mask` can be omitted if unavailable.
+
+## License
+
+The FLAME source code and project-authored configuration files are licensed
+under the [Apache License 2.0](LICENSE). This grant also covers the
+project-authored code at commit
+[`5d3d42f32934d64a898fd4fd05a815a9a3e32ebf`](https://github.com/phoenixnir/FLAME/commit/5d3d42f32934d64a898fd4fd05a815a9a3e32ebf)
+and both model files from [release v0.1.0](https://github.com/phoenixnir/FLAME/releases/tag/v0.1.0),
+`flame_g2_ladmulti_sam2.pth` and `model_params.json`.
+
+The license permits internal offline evaluation, including evaluation for a
+commercial product, and commercial inference without separate permission
+from the FLAME project. For redistribution, follow Section 4 of the license,
+including its requirements for the license text, change notices, and
+applicable attribution notices.
+
+See [NOTICE](NOTICE) for the bundled SAM 2.1 configuration and MagicBrush
+demo samples. The separately downloaded SAM 2.1 base checkpoint is provided
+under [Meta's Apache-2.0 terms](https://github.com/facebookresearch/sam2#license).
+The training datasets are available under their respective providers' terms.

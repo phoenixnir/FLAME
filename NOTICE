@@ -1,0 +1,18 @@
+FLAME
+Order within Chaos: Capturing Intrinsic Energy Anomalies for AI-Manipulated Image Forgery Localization
+https://github.com/phoenixnir/FLAME
+
+This repository includes the SAM 2.1 Hiera Base Plus configuration
+(FLAME/sam2configs/sam2.1_hiera_b+.yaml) from Meta's SAM 2 project.
+The v0.1.0 FLAME checkpoint also includes parameters for the SAM 2 mask
+decoder's IoU prediction head.
+SAM 2 is distributed under the Apache License, Version 2.0.
+https://github.com/facebookresearch/sam2
+
+The demo samples in FLAME/demo_test_set/magicbrush/ are from MagicBrush
+(Kai Zhang, Lingbo Mo, Wenhu Chen, Huan Sun, and Yu Su).
+The MagicBrush dataset is published under CC BY 4.0. Check the applicable
+terms for the underlying images before reusing them.
+https://huggingface.co/datasets/osunlp/MagicBrush
+https://creativecommons.org/licenses/by/4.0/
+https://cocodataset.org/dataset/termsofuse.htm
